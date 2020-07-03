@@ -1,5 +1,5 @@
 {
-  "name": "@ngmodule/material-carousel",
+  "name": "@ngbmodule/material-carousel",
   "description": "Carousel component for Angular using Material Design.",
   "version": "0.7.0",
   "repository": {
