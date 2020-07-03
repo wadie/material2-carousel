@@ -4,11 +4,17 @@
 [![Live demo](https://img.shields.io/badge/demo-blue.svg)](https://gbrlsnchs.github.io/material2-carousel/)
 
 ## NOTICE
-I no longer use Angular. By not using Angular anymore, it means I no longer use this component, what prevents me from pushing quality commits, doing assertive code reviews and being up-to-date with new Angular releases. I don't do open source for stars, I do to help people, so I don't want people that depend on this component to have a bad support.
+Hi guys, how are you?
 
-That said, for the sake of the community, I suggest someone to fork this repository. There are a bunch of small issues to be solved and also some major ones but I'm sure someone actively using Angular will handle them with ease.
+I'm Gabriel Busarello, and I forked this project, because it have some nice features.
 
-Thanks for the support and take care!
+The first author of this project is Gabriel Sanches, and he archived this awesome project, because he don't use Angular anymore. But I will very happy to can help de Open Source community.
+
+In next days I will push some adjusts, bumping this project to version 9 of Angular, and revising some issues and viewing pull requests of the archived project. And I will publish this package in another account of npm. I still not know if I'll create another account in npm, to take this thing must professional, or just in my personal account, but I'll be in touch.
+
+I want to help the community, and if you have some feature or issue, please contributte to this project. I will really appreciate that!
+
+Thank you!
 
 ## About
 This package is a carousel component for Angular using Material Design.

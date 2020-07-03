@@ -28,7 +28,9 @@
             "tsConfig": "projects/carousel/tsconfig.spec.json",
             "karmaConfig": "projects/carousel/karma.conf.js",
             "stylePreprocessorOptions": {
-              "includePaths": ["projects/carousel/src/styles"]
+              "includePaths": [
+                "projects/carousel/src/styles"
+              ]
             }
           }
         },
@@ -39,7 +41,9 @@
               "projects/carousel/tsconfig.lib.json",
               "projects/carousel/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -67,7 +71,9 @@
               "projects/demo/src/favicon.ico",
               "projects/demo/src/assets"
             ],
-            "styles": ["projects/demo/src/styles.scss"],
+            "styles": [
+              "projects/demo/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -121,7 +127,9 @@
             "polyfills": "projects/demo/src/polyfills.ts",
             "tsConfig": "projects/demo/tsconfig.spec.json",
             "karmaConfig": "projects/demo/karma.conf.js",
-            "styles": ["projects/demo/src/styles.scss"],
+            "styles": [
+              "projects/demo/src/styles.scss"
+            ],
             "scripts": [],
             "assets": [
               "projects/demo/src/favicon.ico",
@@ -136,11 +144,16 @@
               "projects/demo/tsconfig.app.json",
               "projects/demo/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
     }
   },
-  "defaultProject": "carousel"
+  "defaultProject": "carousel",
+  "cli": {
+    "analytics": "eee8f5cc-b6b7-42f8-adac-c0a89e7dee03"
+  }
 }
