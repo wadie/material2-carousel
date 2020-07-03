@@ -1,7 +1,6 @@
 os:
 - linux
 - osx
-sudo: false
 language: node_js
 node_js:
 - '10'
@@ -21,7 +20,7 @@ before_deploy:
 deploy:
   provider: npm
   email: gabriel20053@gmail.com
-  skip_cleanup: true
+  cleanup: true
   api_key:
     secure: rPNG83Lvqe4TknJnuNbFvEShQBlhFKaGwDJ3UhvxriZ2/OGR7f9ykg150p3MZ7fy0M5bi6lvkZ6WQRZ6WMwMqWQgM+kW6IpS4zOE/DyL6nqWdXFmHuja0QnqWX6xW5XpXEqTo64w20d/D4N30aiNsl3lieSNzyMXPJZsurqfjzWcm6vVoBzjGsRorJe4LTATY/sIxj5RrpNy7nkUnBsB1DVF+nxWstG+fXN6ryqTLxf83zB3rE2mGBA8JhjLLmMMTAN03lthfaciTpWF2iGMGAEo09IKbu1PH99pCF4pIY7QKi5KWSHNhcQVE/89ELfcdoA6OEDsO+dfVMEKaU/mn9rmpM0dbTSUU+emXywm7DwJjjbs/RcQ7KvsVk3gEji6tYBZoKpL1pS+VpLd+pmJR/gCqEZjVEqPHDbecFVKdvNpSbEPkQModRfZ0Jq1UwgcgtPOcSYdg0JDy6aw7Uzfhw19P9s222TU+R4/KFei5rv++E+rCOcsZ5IH0veRNIPv6JjfeB1D/L++ueqGZCr6makJ1ZkHYIcV433j2+qjsPEHwKqxS4qy4rGYcaP3TeEWNi0Z5OfHMzTxac2LtN55ZKGTUpSl/cc0kujULRTvDoHT3rX6M3Y3DLxW7nwnn+US2+FqOZyOgLjqZo/hjbK9W6V5GGAVgL19X2/F40mxb5g=
   on:
