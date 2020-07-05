@@ -10,8 +10,6 @@ I'm Gabriel Busarello, and I forked this project, because it have some nice feat
 
 The first author of this project is Gabriel Sanches, and he archived this awesome project, because he don't use Angular anymore. But I will very happy to can help de Open Source community.
 
-In next days I will push some adjusts, bumping this project to version 9 of Angular, and revising some issues and viewing pull requests of the archived project. And I will publish this package in another account of npm. I still not know if I'll create another account in npm, to take this thing must professional, or just in my personal account, but I'll be in touch.
-
 I want to help the community, and if you have some feature or issue, please contributte to this project. I will really appreciate that!
 
 Thank you!
