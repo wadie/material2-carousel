@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.7.1] - 2020-07-05
+### Fixed
+- HammerJS gestures on slide.
+
 ## [0.7.0] - 2020-07-03
 ### Changed
 - Update Angular to new version.
@@ -93,6 +97,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Angular CLI files.
 - Demo application project.
 
+[0.7.1]: https://github.com/gabrielbusarello/material2-carousel/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/gbrlsnchs/material2-carousel/compare/master...gabrielbusarello:v0.7.0
 [0.6.0]: https://github.com/gbrlsnchs/material2-carousel/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/gbrlsnchs/material2-carousel/compare/v0.5.0...v0.5.1
