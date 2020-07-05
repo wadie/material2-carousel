@@ -8,7 +8,7 @@ Hi guys, how are you?
 
 I'm Gabriel Busarello, and I forked this project, because it have some nice features.
 
-The first author of this project is Gabriel Sanches, and he archived this awesome project, because he don't use Angular anymore. But I will very happy to can help de Open Source community.
+The first author of this project is [Gabriel Sanches](https://github.com/gbrlsnchs), and he archived this awesome project, because he don't use Angular anymore. But I will very happy to can help de Open Source community.
 
 I want to help the community, and if you have some feature or issue, please contributte to this project. I will really appreciate that!
 
