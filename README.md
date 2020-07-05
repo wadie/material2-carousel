@@ -1,6 +1,6 @@
 # Material Carousel
 [![Build Status](https://travis-ci.org/gabrielbusarello/material2-carousel.svg?branch=master)](https://travis-ci.org/gabrielbusarello/material2-carousel)
-[![npm version](https://badge.fury.io/js/%40ngmodule%2Fmaterial-carousel.svg)](https://badge.fury.io/js/%40ngmodule%2Fmaterial-carousel)
+[![npm version](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel.svg)](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel)
 [![Live demo](https://img.shields.io/badge/demo-blue.svg)](https://gabrielbusarello.github.io/material2-carousel/)
 
 ## NOTICE
@@ -22,12 +22,12 @@ This package is a carousel component for Angular using Material Design.
 Until `v1` is reached, breaking changes may be introduced.
 
 ### Installing
-`npm install --save @ngmodule/material-carousel`
+`npm install --save @ngbmodule/material-carousel`
 
 ### Importing
 ```typescript
 //...
-import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { MatCarouselModule } from '@ngbmodule/material-carousel';
 
 @NgModule({
   // ...
@@ -43,7 +43,7 @@ export class AppModule {}
 ## Usage
 ### `MatCarouselComponent`
 ```typescript
-import { MatCarousel, MatCarouselComponent } from '@ngmodule/material-carousel';
+import { MatCarousel, MatCarouselComponent } from '@ngbmodule/material-carousel';
 ```
 ```html
 <mat-carousel>
@@ -91,7 +91,7 @@ Play around with the [demo](https://gbrlsnchs.github.io/material2-carousel/) to 
 
 ### `MatCarouselSlideComponent`
 ```typescript
-import { MatCarouselSlide, MatCarouselSlideComponent } from '@ngmodule/material-carousel';
+import { MatCarouselSlide, MatCarouselSlideComponent } from '@ngbmodule/material-carousel';
 ```
 ```html
 <mat-carousel>
