@@ -75,7 +75,7 @@ If you want to have a carousel with constant height (regardless of width), you m
 
 By default, `slideHeight` is set to `100%`, which will not work if the parent element height isn't defined (i.e. relative heights do not work if the parent height is `auto`). In that case you could pass a valid css string for `slideHeight`. You can use any valid css height string like `100px` or `25vh`.
 
-Play around with the [demo](https://gbrlsnchs.github.io/material2-carousel/) to see how you can use this carousel with or without explicit parent height.
+Play around with the [demo](https://gabrielbusarello.github.io/material2-carousel/) to see how you can use this carousel with or without explicit parent height.
 
 **With parent elements that have height:auto**
 * use `proportion` if you want a carousel that resizes responsively (this is the default configuration).
@@ -108,8 +108,8 @@ import { MatCarouselSlide, MatCarouselSlideComponent } from '@ngbmodule/material
 
 ## Contributing
 ### How to help
-- For bugs and opinions, please [open an issue](https://github.com/gbrlsnchs/material2-carousel/issues/new)
-- For pushing changes, please [open a pull request](https://github.com/gbrlsnchs/material2-carousel/compare)
+- For bugs and opinions, please [open an issue](https://github.com/gabrielbusarello/material2-carousel/issues/new)
+- For pushing changes, please [open a pull request](https://github.com/gabrielbusarello/material2-carousel/compare)
 
 ### How to develop and test
 #### Testing
