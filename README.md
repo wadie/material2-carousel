@@ -3,6 +3,8 @@
 [![npm version](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel.svg)](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel)
 [![Live demo](https://img.shields.io/badge/demo-blue.svg)](https://gabrielbusarello.github.io/material2-carousel/)
 
+[![Material2 Carousel](./projects/demo/src/assets/Biglogo.png)](https://github.com/gabrielbusarello/material2-carousel)
+
 ## NOTICE
 Hi guys, how are you?
 

@@ -3,6 +3,11 @@
     font-family: "Roboto Mono";
   }
 
+  &-logo {
+    display: flex;
+    align-items: center;
+  }
+
   &-container {
     padding: 15px;
   }
