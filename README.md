@@ -57,15 +57,15 @@ import { MatCarousel, MatCarouselComponent } from '@ngbmodule/material-carousel'
 | `autoplay`            | `boolean`          | Enable automatic sliding.                                                  | `true`            |
 | `interval`            | `number`           | Autoplay's interval in milliseconds.                                       | `5000`            |
 | `loop`                | `boolean`          | Enable loop through arrows.                                                | `true`            |
-| `hideArrows`          | `boolean`          | Hide navigation arrows.                                                    | `false`           |
-| `hideIndicators`      | `boolean`          | Hide navigation indicators.                                                | `false`           |
+| `hideArrows`          | `boolean`          | Hide navigation arrows.                                                    | `true`            |
+| `hideIndicators`      | `boolean`          | Hide navigation indicators.                                                | `true`            |
 | `color`               | `ThemePalette`     | Color palette from Material.                                               | `'accent'`        |
 | `maxWidth`            | `string`           | Maximum width.                                                             | `'auto'`          |
 | `maintainAspectRatio` | `boolean`          | If true, use `proportion` to determine height, else `slideHeight` is used. | `true`            |
 | `proportion`          | `number`           | Height proportion compared to width.                                       | `25`              |
 | `slideHeight`         | `string`           | Explicit slide height. Used when maintainAspectRatio is false.             | `'100%'`          |
 | `slides`              | `number`           | Maximum amount of displayed slides.                                        |                   |
-| `useKeyboard`         | `boolean`          | Enable keyboard navigation.                                                | `true`            |
+| `useKeyboard`         | `boolean`          | Enable keyboard navigation.                                                | `false`           |
 | `useMouseWheel`       | `boolean`          | Enable navigation through mouse wheeling.                                  | `false`           |
 | `orientation`         | `Orientation`      | Orientation of the sliding panel.                                          | `'ltr'`           |
 | `svgIconOverrides`    | `SvgIconOverrides` | Override default carousel icons with registered SVG icons.                 |                   |
