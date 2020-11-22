@@ -69,6 +69,7 @@ import { MatCarousel, MatCarouselComponent } from '@ngbmodule/material-carousel'
 | `useMouseWheel`       | `boolean`          | Enable navigation through mouse wheeling.                                  | `false`           |
 | `orientation`         | `Orientation`      | Orientation of the sliding panel.                                          | `'ltr'`           |
 | `svgIconOverrides`    | `SvgIconOverrides` | Override default carousel icons with registered SVG icons.                 |                   |
+| `pauseOnHover`        | `boolean`          | Override default pause on hover.                                           | `true`            |
 
 #### Size Considerations and Recommendations
 By default, `maintainAspectRatio` is true, which means height is controlled through `proportion`.

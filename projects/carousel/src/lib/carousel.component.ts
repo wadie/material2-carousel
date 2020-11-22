@@ -63,6 +63,7 @@ export class MatCarouselComponent
 
   @Input() public hideArrows = true;
   @Input() public hideIndicators = true;
+  @Input() public pauseOnHover = true;
   @Input() public color: ThemePalette = 'accent';
 
   public get maxWidth(): string {
@@ -219,12 +220,16 @@ export class MatCarouselComponent
 
   @HostListener('mouseenter')
   public onMouseEnter(): void {
-    this.stopTimer();
+    if(this.pauseOnHover){
+      this.stopTimer();
+    }
   }
 
   @HostListener('mouseleave')
   public onMouseLeave(): void {
-    this.startTimer(this._autoplay);
+    if(this.pauseOnHover){
+      this.startTimer(this._autoplay);
+    }
   }
 
   @HostListener('mousewheel', ['$event'])
