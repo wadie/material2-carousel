@@ -71,6 +71,13 @@ import { MatCarousel, MatCarouselComponent } from '@ngbmodule/material-carousel'
 | `svgIconOverrides`    | `SvgIconOverrides` | Override default carousel icons with registered SVG icons.                 |                   |
 | `pauseOnHover`        | `boolean`          | Override default pause on hover.                                           | `true`            |
 
+
+| Output                |  Type              | Description                                                                |
+| --------------------- | ------------------ | -------------------------------------------------------------------------- |
+| `animationStart`      | `number`           | It emits the currentIndex when animation starts                            |
+| `change`              | `number`           | It emtis the currentIndex when animation ends                              |
+
+
 #### Size Considerations and Recommendations
 By default, `maintainAspectRatio` is true, which means height is controlled through `proportion`.
 

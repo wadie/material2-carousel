@@ -87,9 +87,10 @@ describe('MatCarouselComponent', () => {
     expect(component.currentIndex).toBe(0);
   });
 
-  describe('@Output(change)', () => {
+  describe('@Output(change) and @Output(animationStart)', () => {
     beforeEach(() => {
       spyOn(component.change, 'emit');
+      spyOn(component.animationStart,'emit')
       component.loop = true;
     });
 
@@ -98,6 +99,7 @@ describe('MatCarouselComponent', () => {
       component.slideTo(idx);
       tick();
 
+      expect(component.animationStart.emit).toHaveBeenCalledWith(idx);
       expect(component.change.emit).toHaveBeenCalledWith(idx);
     }));
 
@@ -105,6 +107,7 @@ describe('MatCarouselComponent', () => {
       component.next();
       tick();
 
+      expect(component.animationStart.emit).toHaveBeenCalledWith(1);
       expect(component.change.emit).toHaveBeenCalledWith(1);
     }));
 
@@ -112,6 +115,7 @@ describe('MatCarouselComponent', () => {
       component.previous();
       tick();
 
+      expect(component.animationStart.emit).toHaveBeenCalledWith(component.slidesList.length - 1);
       expect(component.change.emit).toHaveBeenCalledWith(component.slidesList.length - 1);
     }));
 
@@ -122,6 +126,7 @@ describe('MatCarouselComponent', () => {
 
       component.autoplay = false;
 
+      expect(component.animationStart.emit).toHaveBeenCalledWith(1);
       expect(component.change.emit).toHaveBeenCalledWith(1);
     }));
   });
