@@ -236,7 +236,7 @@ export class MatCarouselComponent
   }
 
   @HostListener('mousewheel', ['$event'])
-  public onMouseWheel(event: MouseWheelEvent): void {
+  public onMouseWheel(event: WheelEvent): void {
     if (this.useMouseWheel) {
       event.preventDefault(); // prevent window to scroll
       const Δ = Math.sign(event.deltaY);
