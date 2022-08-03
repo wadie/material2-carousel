@@ -10,6 +10,7 @@ jobs:
         with:
           node-version: 10
       - run: npm install
+      - if: github.event.pull_request.head.repo.full_name != github.repository
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPMTOKEN }}
