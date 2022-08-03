@@ -7,9 +7,9 @@
     "build": "ng build && cp LICENSE dist/carousel && cp README.md dist/carousel",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
+    "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~10.0.2",
     "@angular/cdk": "~10.0.1",
