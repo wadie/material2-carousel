@@ -13,7 +13,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { MatCarouselModule } from '../../../carousel/src/public_api';
+import { MatCarouselModule } from 'material2-carousel/projects/carousel/src/public_api';
 
 import { AppComponent } from './app.component';
 
