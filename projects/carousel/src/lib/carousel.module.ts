@@ -1,16 +1,13 @@
-import { NgModule, Injectable } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Injectable, ModuleWithProviders, NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 
-import { MatCarouselComponent } from './carousel.component';
-import { MatCarouselSlideComponent } from './carousel-slide/carousel-slide.component';
 import {
-  HammerGestureConfig,
-  HAMMER_GESTURE_CONFIG,
-  HammerModule
+  HammerGestureConfig, HammerModule, HAMMER_GESTURE_CONFIG
 } from '@angular/platform-browser';
-import { ModuleWithProviders } from '@angular/compiler/src/core';
+import { MatCarouselSlideComponent } from './carousel-slide/carousel-slide.component';
+import { MatCarouselComponent } from './carousel.component';
 
 // https://github.com/angular/angular/issues/10541#issuecomment-300761387
 @Injectable()
@@ -26,7 +23,7 @@ export class MatCarouselHammerConfig extends HammerGestureConfig {
   exports: [MatCarouselComponent, MatCarouselSlideComponent]
 })
 export class MatCarouselModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<MatCarouselModule> {
     return {
       ngModule: MatCarouselModule,
       providers: [
