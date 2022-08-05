@@ -1,12 +1,12 @@
 {
-  "name": "@ngbmodule/material-carousel",
+  "name": "material2-carousel",
   "description": "Carousel component for Angular using Material Design.",
-  "version": "1.8.0",
+  "version": "0.9.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/gabrielbusarello/material2-carousel.git"
   },
-  "author": "Wadie",
+  "author": "Gabriel Busarello <gabriel20053@gmail.com>",
   "license": "MIT",
   "homepage": "https://gabrielbusarello.github.io/material2-carousel/",
   "bugs": "https://github.com/gabrielbusarello/material2-carousel/issues",
@@ -21,7 +21,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/material": "^14.2.0-next.1",
+    "@angular/material": ">=14.0.1",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.6.0"
   }
