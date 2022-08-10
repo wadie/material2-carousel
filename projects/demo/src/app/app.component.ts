@@ -5,7 +5,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import {
   MatCarouselSlideComponent,
   Orientation
-} from '../../../carousel/src/public_api';
+} from 'material2-carousel';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,7 @@ import {
 })
 export class AppComponent {
   private static readonly INSTALL_TEXT =
-    'npm install @ngbmodule/material-carousel';
+    'npm install material2-carousel';
 
   public slidesList = new Array<never>(5);
   public showContent = false;
