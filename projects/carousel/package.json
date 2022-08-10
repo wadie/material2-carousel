@@ -1,7 +1,7 @@
 {
   "name": "material2-carousel",
   "description": "Carousel component for Angular using Material Design.",
-  "version": "0.9.5",
+  "version": "0.9.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/wadie/material2-carousel.git"
