@@ -1,9 +1,8 @@
 import { OverlayContainer } from '@angular/cdk/overlay';
-import { Component, ElementRef, QueryList, ViewChildren } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { ThemePalette } from '@angular/material/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import {
-  MatCarouselSlideComponent,
   Orientation
 } from 'material2-carousel';
 
@@ -39,9 +38,6 @@ export class AppComponent {
   public orientation: Orientation = 'ltr';
   public log: string[] = [];
 
-  @ViewChildren(MatCarouselSlideComponent) public carouselSlides: QueryList<
-    MatCarouselSlideComponent
-  >;
   public darkMode = false;
 
   public get code(): string {
@@ -131,7 +127,6 @@ export class AppComponent {
   }
 
   public resetSlides(): void {
-    this.carouselSlides.forEach(item => (item.disabled = false));
   }
 
   public onChange(index: number) {

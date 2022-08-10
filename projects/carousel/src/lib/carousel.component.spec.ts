@@ -1,12 +1,8 @@
 import 'hammerjs';
 import { Component } from '@angular/core';
-import { async, ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule } from '@angular/material/icon';
+import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 
 import { MatCarouselComponent } from './carousel.component';
-import { MatCarouselModule } from './carousel.module';
 
 @Component({
   selector: 'mat-carousel-test-wrapper-component',
@@ -23,18 +19,6 @@ class MatCarouselTestWrapperComponent {
 describe('MatCarouselComponent', () => {
   let component: MatCarouselComponent;
   let fixture: ComponentFixture<MatCarouselTestWrapperComponent>;
-
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [MatCarouselTestWrapperComponent],
-      imports: [
-        NoopAnimationsModule,
-        MatButtonModule,
-        MatIconModule,
-        MatCarouselModule
-      ]
-    }).compileComponents();
-  }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(MatCarouselTestWrapperComponent);

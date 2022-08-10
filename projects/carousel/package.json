@@ -1,10 +1,21 @@
 {
   "name": "material2-carousel",
   "description": "Carousel component for Angular using Material Design.",
-  "version": "0.9.9",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/wadie/material2-carousel.git"
+  },
+  "scripts": {
+    "build": "ng build material2-carousel",
+    "build:release": "ng build material2-carousel --prod",
+    "build:watch": "ng build material2-carousel --watch",
+    "ng": "ng",
+    "lint": "ng lint",
+    "release": "npm run build:release && npm publish dist/",
+    "release:beta": "npm run build:release && npm publish dist/ --tag beta",
+    "start": "ng serve",
+    "test": "ng test"
   },
   "main": "src/public_api.ts",
   "author": "Gabriel Busarello <gabriel20053@gmail.com>",
@@ -29,6 +40,7 @@
     "@angular-devkit/build-angular": "^14.1.1",
     "@angular/animations": "^14.1.1",
     "@angular/cli": "^14.1.1",
+    "@angular/cdk": "^14.1.1",
     "@angular/common": "^14.1.1",
     "@angular/compiler": "^14.1.1",
     "@angular/compiler-cli": "^14.1.1",

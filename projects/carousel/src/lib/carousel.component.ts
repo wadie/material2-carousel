@@ -133,7 +133,7 @@ export class MatCarouselComponent
   private slides$ = new BehaviorSubject<number>(null);
 
   private _maxWidth = 'auto';
-  private maxWidth$ = new Subject<never>();
+  private maxWidth$ = new Subject<void>();
 
   private _loop = true;
   private loop$ = new Subject<boolean>();
@@ -142,9 +142,9 @@ export class MatCarouselComponent
   private orientation$ = new Subject<Orientation>();
 
   private timer$: Observable<number>;
-  private timerStop$ = new Subject<never>();
+  private timerStop$ = new Subject<void>();
 
-  private destroy$ = new Subject<never>();
+  private destroy$ = new Subject<void>();
   private playing = false;
 
   constructor(
